@@ -1,0 +1,92 @@
+{
+  "groups": [
+    {
+      "name": "http",
+      "type": "com.huangxb.config.HttpConfig",
+      "sourceType": "com.huangxb.config.HttpConfig"
+    },
+    {
+      "name": "http.header",
+      "type": "com.huangxb.config.HttpHeaderConfig",
+      "sourceType": "com.huangxb.config.HttpHeaderConfig"
+    },
+    {
+      "name": "server",
+      "type": "com.huangxb.config.ServerConfig",
+      "sourceType": "com.huangxb.config.ServerConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "http.connect-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.huangxb.config.HttpConfig"
+    },
+    {
+      "name": "http.header.accept",
+      "type": "java.lang.String",
+      "sourceType": "com.huangxb.config.HttpHeaderConfig"
+    },
+    {
+      "name": "http.header.charset",
+      "type": "java.lang.String",
+      "sourceType": "com.huangxb.config.HttpHeaderConfig"
+    },
+    {
+      "name": "http.header.content-type",
+      "type": "java.lang.String",
+      "sourceType": "com.huangxb.config.HttpHeaderConfig"
+    },
+    {
+      "name": "http.http-header-config",
+      "type": "com.huangxb.config.HttpHeaderConfig",
+      "sourceType": "com.huangxb.config.HttpConfig"
+    },
+    {
+      "name": "http.max-conn-per-route",
+      "type": "java.lang.Integer",
+      "sourceType": "com.huangxb.config.HttpConfig"
+    },
+    {
+      "name": "http.max-conn-total",
+      "type": "java.lang.Integer",
+      "sourceType": "com.huangxb.config.HttpConfig"
+    },
+    {
+      "name": "http.socket-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.huangxb.config.HttpConfig"
+    },
+    {
+      "name": "server.file-path",
+      "type": "java.lang.String",
+      "sourceType": "com.huangxb.config.ServerConfig"
+    },
+    {
+      "name": "server.m-d5-key",
+      "type": "java.lang.String",
+      "sourceType": "com.huangxb.config.ServerConfig"
+    },
+    {
+      "name": "server.merchant-id",
+      "type": "java.lang.String",
+      "sourceType": "com.huangxb.config.ServerConfig"
+    },
+    {
+      "name": "server.sign-type",
+      "type": "java.lang.String",
+      "sourceType": "com.huangxb.config.ServerConfig"
+    },
+    {
+      "name": "server.uri",
+      "type": "java.lang.String",
+      "sourceType": "com.huangxb.config.ServerConfig"
+    },
+    {
+      "name": "server.version",
+      "type": "java.lang.String",
+      "sourceType": "com.huangxb.config.ServerConfig"
+    }
+  ],
+  "hints": []
+}

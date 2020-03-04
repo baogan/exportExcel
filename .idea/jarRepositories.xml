@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="5cd2e502-e758-4175-a347-6625ee23d9c9" />
+      <option name="name" value="5cd2e502-e758-4175-a347-6625ee23d9c9" />
+      <option name="url" value="http://192.168.7.148:8081/nexus/content/groups/public" />
+    </remote-repository>
+  </component>
+</project>
