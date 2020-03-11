@@ -9,8 +9,8 @@ http:
     Accept: application/xml
     Charset: UTF-8
 server:
-  uri: https://www.56zhifu.com/user/MerchantAccFileDown.do
-  MD5Key: 7JGHPG950BSAN3EEDU3PY46C
+  uri: https:XXXXXXXXX
+  MD5Key: XXXXXXXX
   merchantId: '00000000035349'
   version: 2.0
   signType: MD5
