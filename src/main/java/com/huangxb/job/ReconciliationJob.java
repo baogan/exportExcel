@@ -18,12 +18,13 @@ public class ReconciliationJob {
   private ServerConfig serverConfig;
   private ReconciliationService reconciliationService;
 
+  // set up a schedul job when 3 am clock .
   final static Logger logger = Logger.getLogger(ReconciliationJob.class);
   @Scheduled(cron = "0 30 8 * * ?")
   private void Reconciliation(){
     reconciliationService = new ReconciliationService();
     logger.info("Reconciliation job start.");
-//    reconciliationService.Reconciliation(httpConfig, serverConfig);
+    reconciliationService.Reconciliation(httpConfig, serverConfig);
     logger.info("Reconciliation job end.");
   }
 
