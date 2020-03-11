@@ -3,7 +3,7 @@ package com.huangxb.util;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-
+// buffer write content by file path
 public class BufferWrite {
   public static void UseBufferedWriter(String fileContent, String filePath) throws IOException {
 
