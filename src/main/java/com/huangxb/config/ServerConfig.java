@@ -3,6 +3,7 @@ package com.huangxb.config;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
+// that's config about url request param value
 @Component
 @ConfigurationProperties(prefix = "server")
 public class ServerConfig {
