@@ -3,6 +3,6 @@
 2. md5 encorypt post data
 3. response base64 decode and parser data to write .txt file
 
-excete example
+for example:
 
 java -jar swt.jar
