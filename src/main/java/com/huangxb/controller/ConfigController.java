@@ -20,7 +20,7 @@ public class ConfigController {
   private ServerConfig serverConfig;
   @Autowired
   private HttpConfig httpConfig;
-
+// this is setup http://localhost:8099/UtilTest controller 
   @RequestMapping("/UtilTest")
   public void UtilTest() {
     ReconciliationService reconciliationService = new ReconciliationService();
