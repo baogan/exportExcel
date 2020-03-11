@@ -16,7 +16,7 @@ public class ConfigTest {
   private HttpConfig httpConfig;
 
 
-
+// get a calendar date before the current day
   @Test
   public void contextLoads() {
     SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMdd");
